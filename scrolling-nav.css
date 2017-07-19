@@ -1,0 +1,152 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h1+h3 {
+  color: #eef0f2;
+  font-weight: 400;
+}
+
+.sharesocial {
+  color: #eef0f2;
+}
+
+.footerText {
+  font-size: 16px;
+  margin-top: 35px;
+}
+
+.logoImage {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: 5% auto 5% auto;
+}
+
+.navbar-default {
+  background-color: #eef0f2;
+}
+
+.heading {
+  color: #373e47;
+  margin-bottom: 40px;
+}
+
+.logo {
+  display: block;
+  height: 50px;
+  padding: 0px 0px 20px 0px;
+  margin-top: -5px;
+}
+
+.classicon {
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin: 6% auto 4% auto;
+}
+
+.courses {
+  text-align: center;
+}
+
+a {
+  color: #01bd9d;
+}
+
+.someButton {
+  background-color: #01bd9d;
+  margin: 10% auto 5% auto;
+  font-size: 20px;
+  color: #eef0f2;
+}
+
+.firstsentence {
+  color: #eef0f2;
+  font-size: 50px;
+}
+
+.secondsentence {
+  color: #eef0f2;
+  font-size: 50px;
+}
+
+.intro-section {
+  height: auto;
+  padding-top: 115px;
+  text-align: center;
+  background-image: url("images/sigmaskilllp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-section {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background: #eee;
+}
+
+.services-section {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background: #fff;
+}
+
+.contact-section {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background: #0a2e5c;
+}
+
+.footersection {
+  background-color: #eef0f2;
+  height: 90px;
+}
+
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+#insider {
+  color: #eef0f2;
+}
+
+#formButton {
+  background-color: #01bd9d;
+}
